@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pomodoro Brew — Offline</title>
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        background: #fbf6ef;
+        color: #3a2314;
+        font-family:
+          -apple-system,
+          BlinkMacSystemFont,
+          'Segoe UI',
+          Roboto,
+          sans-serif;
+      }
+      .wrap {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        padding: 24px;
+        text-align: center;
+      }
+      .cup {
+        font-size: 56px;
+      }
+      h1 {
+        font-size: 20px;
+        margin: 0;
+      }
+      p {
+        margin: 0;
+        color: #6b4423;
+        max-width: 320px;
+      }
+      button {
+        margin-top: 12px;
+        padding: 10px 20px;
+        border-radius: 999px;
+        border: none;
+        background: #8b5e3c;
+        color: #fbf6ef;
+        font-size: 15px;
+        font-weight: 600;
+      }
+      @media (prefers-color-scheme: dark) {
+        html,
+        body {
+          background: #26160c;
+          color: #fbf6ef;
+        }
+        p {
+          color: #e6d5be;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="cup">☕</div>
+      <h1>You're offline</h1>
+      <p>Pomodoro Brew needs a connection to load for the first time, but your timer, settings and stats keep working offline once it's loaded.</p>
+      <button onclick="location.reload()">Try again</button>
+    </div>
+  </body>
+</html>

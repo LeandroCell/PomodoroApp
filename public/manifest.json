@@ -1,0 +1,19 @@
+{
+  "name": "Pomodoro Brew",
+  "short_name": "Pomodoro Brew",
+  "description": "A focused Pomodoro timer with a brewing coffee cup, offline stats and notifications.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F5EFE6",
+  "theme_color": "#8B5E3C",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
